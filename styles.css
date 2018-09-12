@@ -1,0 +1,150 @@
+@font-face {
+	font-family:Roboto;
+	src:url('Roboto-Light-webfont.woff') format('woff');
+}
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Roboto', sans-serif;
+
+}
+#header {
+	margin-top:25px;
+	display:flex;
+	justify-content: center;
+
+}
+
+#nav-bar {
+	margin-left:10px;
+	width:50%;
+	font-size:20px;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#logo-img {
+	width:250px;
+	height:70px;
+}
+
+#nav-bar a,
+#nav-bar a:visited{
+	text-decoration:none;
+	color:#000;
+}
+#nav-bar a:hover{
+	border-bottom: 2px solid #ff9999;
+}
+
+#hero,
+#hero-caption{
+	display:flex;
+	font-size:27px;
+	justify-content: center;
+}
+#hero-caption p{
+	font-size: 16px;
+	opacity:.6;
+}
+#subscribe-area{
+	margin-top:50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+#email{
+	width:30%;
+	height:40px;
+	font-size:20px;
+}
+#submit-button {
+	text-decoration:none;
+	width:150px;
+	color:#fff;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-left:25px;
+    background-color:#ff9999;
+    
+}
+#subscribe-caption{
+	display:flex;
+	justify-content: center;
+	margin-top:15px;
+	opacity:.5;
+}
+#feature-container{
+	padding-top:15px;
+	display:flex;
+	margin-left:5px;
+	justify-content: space-around;
+	margin-top:40px;
+}
+
+#feature-content {
+	width:30%;
+	height:250px;
+	background-color:#f5f5f5;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+#feature-content h2 {
+	text-align:center;
+	color:#ff9999;
+}
+#feature-content p {
+	font-size:15px;
+	padding:0px 8px 0px 8px;
+}
+#video {
+	display:flex;
+	justify-content: center;
+}
+
+#pricing{
+	padding-top:15px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	height:170px;
+	background-color:#f5f5f5;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pricing h1,
+#pricing p {
+	margin-bottom:10px;
+}
+#pricing h1 {
+	color: #ff9999;
+}
+#reddit-logo img,
+#facebook-logo img,
+#twitter-logo img{
+	width:250px;
+	height:250px;
+}
+
+#community {
+	margin-top:60px;
+}
+#social-media-imgs {
+	display:flex;
+	justify-content: space-around;
+}
+#social-media-imgs p {
+	display:flex;
+	justify-content: center;
+}
+#footer {
+	background-color:#f5f5f5;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color:#ff9999;
+	display: flex;
+	justify-content: center;
+	margin-top:50px;
+	margin-bottom:10px;
+}
+
