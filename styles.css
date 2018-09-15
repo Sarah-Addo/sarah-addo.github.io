@@ -6,7 +6,6 @@ html {
 	font-size:10px;
 }
 body {
-	height:300rem;
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
@@ -164,6 +163,22 @@ body {
 	text-align: center;
 	font-size:2.4rem;
 	padding:3rem;
+}
+
+#contact-container {
+	margin:2rem 0rem 2rem 0rem;
+	display: flex;
+	justify-content: center;
+}
+#contact-text {
+	font-size:3rem;
+}
+#contact-text a {
+	text-decoration: none;
+}
+
+#contact-text a:hover {
+	border-bottom: .1rem solid #ff9999;
 }
 
 
