@@ -11,7 +11,7 @@ body {
 	box-sizing:border-box;
 	font-family:'Roboto', sans-serif;
 	background-image:url("images/title-img.png");
-
+	background-color:#000;
 }
 
 /*Styling for navbar*/
