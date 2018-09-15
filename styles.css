@@ -117,7 +117,53 @@ body {
 	text-align: center;
 	font-size:2.4rem;
 	padding:3rem;
+	color:#ff9999;
 }
+
+#projects-container {
+	display:flex;
+	min-height:69rem
+	
+}
+
+#projects-header {
+	width:50%;
+	background-color: #fff;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#projects-h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size:10rem;
+	color:#ff9999;	
+}
+
+#projects-content {
+	width:50%;
+	background: #ff9999;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+#portfolio-website-img {
+	margin-top:2.5rem;
+	margin-left:2.5rem;
+	
+}
+
+#projects-text {
+	color: #fff;
+	wtext-align: center;
+	font-size:2.4rem;
+	padding:3rem;
+}
+
 
 
 
