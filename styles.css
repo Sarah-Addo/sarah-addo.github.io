@@ -145,21 +145,23 @@ body {
 	width:50%;
 	background: #ff9999;
 	display:flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	
 	
 }
 
-#portfolio-website-img {
-	margin-top:2.5rem;
-	margin-left:2.5rem;
-	
+#projects-img {
+	background-image: url("images/portfolio-website-img.png");
+	margin: 0 auto;
+	width: 82%;
+	height:30rem;
 }
 
 #projects-text {
 	color: #fff;
-	wtext-align: center;
+	text-align: center;
 	font-size:2.4rem;
 	padding:3rem;
 }
