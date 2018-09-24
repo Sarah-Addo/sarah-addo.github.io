@@ -21,3 +21,15 @@ function closeMenu() {
 
 
 }
+
+function collapse() {
+
+	document.getElementById("down").classList.toggle("up");
+    var content = document.getElementById("hidden-p");
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  
+}
